@@ -9,14 +9,22 @@ Este trabajo práctico implementa relaciones UML 1 a 1 en Java, incluyendo asoci
 - Implementar asociaciones y dependencias en Java.
 
 ## 📦 Sistema Implementado
-Incluye ejercicios como:
+Incluye 14 ejercicios con clases, diagramas UML y relaciones 1 a 1:
+
 - Ejercicio 1: Pasaporte - Foto - Titular (Composición: Pasaporte → Foto; Asociación bidireccional: Pasaporte ↔ Titular).
 - Ejercicio 2: Celular - Batería - Usuario (Agregación: Celular → Batería; Asociación bidireccional: Celular ↔ Usuario).
 - Ejercicio 3: Libro - Autor - Editorial (Asociación unidireccional: Libro → Autor; Agregación: Libro → Editorial).
-- Ejercicio 4-11: Ejercicios similares con variaciones en asociaciones y dependencias (ej. Reproductor - Canción - Artista con dependencia de uso).
-- Ejercicio 12: Calculadora - Impuesto - Contribuyente (Dependencia de uso: Calculadora → Impuesto; Asociación unidireccional: Impuesto → Contribuyente).
-- Ejercicio 13: GeneradorQR - CodigoQR - Usuario (Dependencia de creación: GeneradorQR → CodigoQR; Asociación unidireccional: CodigoQR → Usuario).
-- Ejercicio 14: EditorVideo - Render - Proyecto (Dependencia de creación: EditorVideo → Render; Asociación unidireccional: Render → Proyecto).
+- Ejercicio 4: TarjetaDeCrédito - Cliente - Banco (Asociación bidireccional: TarjetaDeCrédito ↔ Cliente; Agregación: TarjetaDeCrédito → Banco).
+- Ejercicio 5: Computadora - PlacaMadre - Propietario (Composición: Computadora → PlacaMadre; Asociación bidireccional: Computadora ↔ Propietario).
+- Ejercicio 6: Reserva - Cliente - Mesa (Asociación unidireccional: Reserva → Cliente; Agregación: Reserva → Mesa).
+- Ejercicio 7: Vehículo - Motor - Conductor (Agregación: Vehículo → Motor; Asociación bidireccional: Vehículo ↔ Conductor).
+- Ejercicio 8: Documento - FirmaDigital - Usuario (Composición: Documento → FirmaDigital; Agregación: FirmaDigital → Usuario).
+- Ejercicio 9: CitaMédica - Paciente - Profesional (Asociación unidireccional: CitaMédica → Paciente y CitaMédica → Profesional).
+- Ejercicio 10: CuentaBancaria - ClaveSeguridad - Titular (Composición: CuentaBancaria → ClaveSeguridad; Asociación bidireccional: CuentaBancaria ↔ Titular).
+- Ejercicio 11: Reproductor - Canción - Artista (Asociación unidireccional: Canción → Artista; Dependencia de uso: Reproductor → Canción).
+- Ejercicio 12: Calculadora - Impuesto - Contribuyente (Asociación unidireccional: Impuesto → Contribuyente; Dependencia de uso: Calculadora → Impuesto).
+- Ejercicio 13: GeneradorQR - CodigoQR - Usuario (Asociación unidireccional: CodigoQR → Usuario; Dependencia de creación: GeneradorQR → CodigoQR).
+- Ejercicio 14: EditorVideo - Render - Proyecto (Asociación unidireccional: Render → Proyecto; Dependencia de creación: EditorVideo → Render).
 
 ## 🚀 Cómo Ejecutar
 ### Requisitos
